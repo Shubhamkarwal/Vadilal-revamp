@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Vadilal Ice Creams — Crafted Since 1926. India's finest ice cream brand with 125+ flavours, 50+ countries, and a century of indulgence.">
+<meta name="keywords" content="Vadilal, ice cream, kulfi, India, kesar pista, alphonso mango, gourmet ice cream">
+<meta property="og:title" content="Vadilal — Crafted Since 1926">
+<meta property="og:description" content="A century of indulgence. Perfected in every scoop.">
+<meta property="og:type" content="website">
+<title>Vadilal — Crafted Since 1926</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<!-- PROGRESS BAR -->
+<div id="progress-bar"></div>
+
+<!-- ═══ NAVIGATION ═══════════════════════════════════════ -->
+<nav id="navbar">
+  <a class="nav-logo" href="#">Vadilal</a>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#heritage">Our Story</a></li>
+    <li><a href="#explorer">Flavours</a></li>
+    <li><a href="#global">Worldwide</a></li>
+    <li><a href="#parlours">Parlours</a></li>
+    <li><a href="#franchise">Franchise</a></li>
+  </ul>
+  <a href="#franchise" class="nav-cta">Open a Parlour</a>
+</nav>
+
+<!-- FLAVOUR INDICATOR -->
+<div id="flavour-indicator">
+  <div class="fi-dot active" data-name="Kesar Pista"></div>
+  <div class="fi-dot" data-name="Alphonso Mango"></div>
+  <div class="fi-dot" data-name="Dark Chocolate"></div>
+</div>
+
+<!-- ═══ SECTION 1: PARALLAX HERO ════════════════════════ -->
+<div id="hero-slides">
+
+  <!-- Slide 1 -->
+  <div class="h-slide" id="hs0">
+    <div class="h-bg" id="hbg0" style="background-image:url('images/hero/hero-kesar-pista.png');background-size:cover;background-position:center;"></div>
+    <div class="h-grid" id="hgrid0"></div>
+    <div class="h-particles" id="hpart0"></div>
+    <div class="h-num" id="hnum0">01</div>
+    <div class="h-vignette"></div>
+    <div class="h-content on" id="hcon0">
+      <div class="h-eyebrow">Signature &middot; Kulfi Collection</div>
+      <h1 class="h-title">
+        <span class="h-title-solid">Kesar</span>
+        <span class="h-title-outline">Pista Kulfi</span>
+      </h1>
+      <p class="h-sub">Pure Kashmiri saffron. Iranian pistachios. Set the old way.</p>
+      <a href="#explorer" class="h-cta">Discover this Flavour &rarr;</a>
+    </div>
+    <div class="h-badge">
+      <span class="h-badge-num">01</span>
+      <span class="h-badge-txt">Heritage &middot; Kulfi</span>
+    </div>
+    <div class="h-scroll-hint">
+      <div class="h-scroll-line"></div>
+      <span class="h-scroll-txt">Scroll</span>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="h-slide" id="hs1">
+    <div class="h-bg" id="hbg1" style="background-image:url('images/hero/hero-alphonso-mango.png');background-size:cover;background-position:center;"></div>
+    <div class="h-grid" id="hgrid1"></div>
+    <div class="h-particles" id="hpart1"></div>
+    <div class="h-num" id="hnum1">02</div>
+    <div class="h-vignette"></div>
+    <div class="h-content" id="hcon1">
+      <div class="h-eyebrow">Signature &middot; Gourmet Collection</div>
+      <h1 class="h-title">
+        <span class="h-title-solid">Alphonso</span>
+        <span class="h-title-outline h-title-outline--mango">Mango</span>
+      </h1>
+      <p class="h-sub">Ratnagiri's finest. Frozen at the peak of sweetness.</p>
+      <a href="#explorer" class="h-cta">Discover this Flavour &rarr;</a>
+    </div>
+    <div class="h-badge">
+      <span class="h-badge-num">02</span>
+      <span class="h-badge-txt">Seasonal &middot; Gourmet</span>
+    </div>
+    <div class="h-scroll-hint">
+      <div class="h-scroll-line"></div>
+      <span class="h-scroll-txt">Scroll</span>
+    </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="h-slide" id="hs2">
+    <div class="h-bg" id="hbg2" style="background-image:url('images/hero/hero-dark-chocolate.png');background-size:cover;background-position:center;"></div>
+    <div class="h-grid" id="hgrid2"></div>
+    <div class="h-particles" id="hpart2"></div>
+    <div class="h-num" id="hnum2">03</div>
+    <div class="h-vignette"></div>
+    <div class="h-content" id="hcon2">
+      <div class="h-eyebrow">Signature &middot; Dark Series</div>
+      <h1 class="h-title">
+        <span class="h-title-solid">Dark</span>
+        <span class="h-title-outline h-title-outline--choc">Chocolate</span>
+      </h1>
+      <p class="h-sub">Belgian cocoa. Slow-churned. Velvet on the tongue.</p>
+      <a href="#explorer" class="h-cta">Discover this Flavour &rarr;</a>
+    </div>
+    <div class="h-badge">
+      <span class="h-badge-num">03</span>
+      <span class="h-badge-txt">Premium &middot; Dark Series</span>
+    </div>
+    <div class="h-scroll-hint">
+      <div class="h-scroll-line"></div>
+      <span class="h-scroll-txt">Scroll</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══ SECTION 2: HERITAGE ══════════════════════════════ -->
+<section id="heritage" style="background-image:url('images/backgrounds/bg-heritage.jpg');background-size:cover;background-position:center;">
+  <div class="heritage-visual">
+    <div class="heritage-orbits">
+      <div class="orbit orbit-1"></div>
+      <div class="orbit orbit-2"></div>
+      <div class="orbit orbit-3"></div>
+    </div>
+    <div class="heritage-seal reveal">
+      <span class="seal-year">1926</span>
+      <span class="seal-label">Est. Ahmedabad</span>
+    </div>
+  </div>
+  <div class="heritage-text">
+    <div class="section-eyebrow reveal">Heritage</div>
+    <h2 class="section-title reveal d1">Born in <em>Ahmedabad.</em><br>Beloved by the World.</h2>
+    <div class="gold-line reveal d2"></div>
+    <p class="section-body reveal d2">
+      In 1926, Ranchhodbhai Thakar began selling ice cream from a hand-cart on the streets of Gujarat. What started as a pursuit of simple joy grew into India's most trusted frozen legacy — a brand that carries the warmth of Indian flavours to 50 countries and counting.
+    </p>
+    <p class="section-body reveal d3" style="margin-top:1rem;">
+      Every product is a conversation between tradition and innovation. Between the richness of kesar-pista and the boldness of dark chocolate. Between memory and discovery.
+    </p>
+    <div class="stats-row">
+      <div class="reveal d3">
+        <span class="stat-num">125+</span>
+        <span class="stat-lbl">Flavours</span>
+      </div>
+      <div class="reveal d4">
+        <span class="stat-num">50+</span>
+        <span class="stat-lbl">Countries</span>
+      </div>
+      <div class="reveal d5">
+        <span class="stat-num">98</span>
+        <span class="stat-lbl">Years Legacy</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SECTION 3: FLAVOUR EXPLORER ═════════════════════ -->
+<section id="explorer">
+  <div class="explorer-hd">
+    <div class="section-eyebrow centered reveal">Vadilal Collection</div>
+    <h2 class="section-title reveal d1" style="text-align:center;">Explore the <em>Flavours</em></h2>
+    <p class="explorer-count" id="exp-count">Showing all 24 flavours</p>
+  </div>
+  <div class="search-wrap">
+    <input class="search-input" id="search-box" type="text" placeholder="Search a flavour, mood, ingredient...">
+  </div>
+  <div class="filters-bar" id="filter-bar">
+    <button class="filter-btn active" data-cat="all">All</button>
+    <button class="filter-btn" data-cat="Gourmet">Gourmet</button>
+    <button class="filter-btn" data-cat="Kulfi">Kulfi</button>
+    <button class="filter-btn" data-cat="Novelty">Novelty</button>
+    <button class="filter-btn" data-cat="Take Home">Take Home</button>
+    <button class="filter-btn" data-cat="Fusion">Fusion</button>
+    <button class="filter-btn" data-cat="Sundae">Sundae</button>
+  </div>
+  <div class="flavour-grid" id="flavour-grid"></div>
+  <div class="f-detail" id="f-detail">
+    <div class="f-d-icon" id="fd-icon"></div>
+    <div>
+      <p class="f-d-cat" id="fd-cat"></p>
+      <h3 class="f-d-name" id="fd-name"></h3>
+      <p class="f-d-desc" id="fd-desc"></p>
+      <div class="f-d-tags" id="fd-tags"></div>
+      <button class="f-close" id="fd-close">Close &times;</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SECTION 4: PROMISE QUOTE ════════════════════════ -->
+<section id="promise">
+  <div class="promise-inner">
+    <div class="section-eyebrow centered reveal">The Vadilal Promise</div>
+    <blockquote class="promise-quote reveal d1">
+      "Every scoop carries the memory of <span>a hundred summers</span> — made with hands that never forgot what joy tastes like."
+    </blockquote>
+    <p class="promise-attr reveal d2">— Crafted Since 1926 &nbsp;&middot;&nbsp; Ahmedabad, India</p>
+  </div>
+</section>
+
+<!-- ═══ SECTION 5: GLOBAL PRESENCE ══════════════════════ -->
+<section id="global" style="background-image:url('images/backgrounds/bg-global.jpg');background-size:cover;background-position:center;">
+  <div class="global-dot-bg" id="dot-bg"></div>
+  <div class="global-left">
+    <div class="section-eyebrow reveal">Global Presence</div>
+    <h2 class="section-title reveal d1">Serving <em>cold joy</em><br>to 50 nations.</h2>
+    <div class="gold-line reveal d2"></div>
+    <p class="section-body reveal d2">
+      From the streets of Surat to the supermarkets of New York — from Dubai's finest hotels to London's Indian diaspora — Vadilal travels with culture and memory.
+    </p>
+    <p class="section-body reveal d3" style="margin-top:1rem;">
+      With over 400 products tailored for global palates and dedicated international manufacturing, Vadilal is not just an Indian brand — it is India's gift to the world.
+    </p>
+  </div>
+  <div class="global-right">
+    <div class="presence-card reveal">
+      <span class="p-flag">🇮🇳 &nbsp;India</span>
+      <p class="p-desc">1,000+ parlours across 500 cities. The nation's most trusted scoop for nearly a century.</p>
+    </div>
+    <div class="presence-card reveal d1">
+      <span class="p-flag">🇦🇪 &nbsp;UAE & Gulf</span>
+      <p class="p-desc">Present in all major hypermarkets, Indian restaurants and luxury hotel chains.</p>
+    </div>
+    <div class="presence-card reveal d2">
+      <span class="p-flag">🇺🇸 &nbsp;Americas</span>
+      <p class="p-desc">Stocked by leading South Asian grocery chains across the US, Canada and Caribbean.</p>
+    </div>
+    <div class="presence-card reveal d3">
+      <span class="p-flag">🇬🇧 &nbsp;Europe</span>
+      <p class="p-desc">The taste of home for millions of Indians in the UK, France, Germany and beyond.</p>
+    </div>
+    <div class="presence-card reveal d2">
+      <span class="p-flag">🇸🇬 &nbsp;South-East Asia</span>
+      <p class="p-desc">A growing presence in Singapore, Malaysia and the wider ASEAN market.</p>
+    </div>
+    <div class="presence-card reveal d3">
+      <span class="p-flag">🌍 &nbsp;Africa</span>
+      <p class="p-desc">Supplying East African markets through strategic distribution partnerships.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SECTION 6: PARLOURS ══════════════════════════════ -->
+<section id="parlours">
+  <div class="parlour-left">
+    <div class="section-eyebrow reveal">Now For Ever Parlours</div>
+    <h2 class="section-title reveal d1">Where <em>time slows</em><br>for one scoop.</h2>
+    <div class="gold-line reveal d2"></div>
+    <p class="section-body reveal d2">
+      Our parlours are not just ice cream shops. They are spaces designed for lingering — with over 60 signature creations, from classic scoops to theatrical hot-cold sizzlers and hand-crafted sundaes.
+    </p>
+    <p class="section-body reveal d3" style="margin-top:1rem;">
+      Immerse yourself in an ambience that feels like a private club — warm Indian hospitality fused with the precision of a luxury confectionery.
+    </p>
+    <a href="#franchise" class="btn-link reveal d4">Bring a Parlour to Your City &rarr;</a>
+  </div>
+  <div class="parlour-right" style="background-image:url('images/backgrounds/bg-parlour.jpg');background-size:cover;background-position:center;">
+    <div class="parlour-img-overlay"></div>
+    <div class="parlour-glow"></div>
+    <div class="parlour-mockup-wrap">
+      <div class="parlour-card reveal">
+        <p class="parlour-card-title">Today's Signatures</p>
+        <div class="parlour-item">
+          <span class="p-item-name">Kesar Pista Sundae</span>
+          <span class="p-item-price">&#8377; 320</span>
+        </div>
+        <div class="parlour-item">
+          <span class="p-item-name">Gold Leaf Kulfi</span>
+          <span class="p-item-price">&#8377; 180</span>
+        </div>
+        <div class="parlour-item">
+          <span class="p-item-name">Chocolate Sizzler</span>
+          <span class="p-item-price">&#8377; 450</span>
+        </div>
+        <div class="parlour-item">
+          <span class="p-item-name">Falooda Royale</span>
+          <span class="p-item-price">&#8377; 260</span>
+        </div>
+        <div class="parlour-item">
+          <span class="p-item-name">Gulab Jamun Deconstructed</span>
+          <span class="p-item-price">&#8377; 380</span>
+        </div>
+        <div class="parlour-item">
+          <span class="p-item-name">Alphonso Mango Float</span>
+          <span class="p-item-price">&#8377; 290</span>
+        </div>
+        <p class="parlour-card-footer">1000+ Parlours Across India</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SECTION 7: FRANCHISE ══════════════════════════════ -->
+<section id="franchise" style="background-image:url('images/backgrounds/bg-franchise.jpg');background-size:cover;background-position:center;">
+  <div class="franchise-inner">
+    <div class="section-eyebrow centered reveal">Join the Legacy</div>
+    <h2 class="franchise-big reveal d1">Own a piece of<br><em>India's sweetest</em> story.</h2>
+    <p class="section-body reveal d2" style="max-width:500px;margin:0 auto;text-align:center;">
+      Partner with Vadilal — one of India's most recognised food brands — and bring a century of craftsmanship to your city.
+    </p>
+    <a href="mailto:franchise@vadilalgroup.com" class="franchise-cta reveal d3">
+      Enquire About Franchise &rarr;
+    </a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">Vadilal</div>
+      <p class="footer-tagline">A century of sweetness. Born in Ahmedabad. Loved around the world. Every flavour is a story — every scoop, a memory.</p>
+      <div class="footer-social">
+        <a href="http://www.facebook.com/vadilalicecreams" class="social-link" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+        <a href="https://www.instagram.com/vadilalicecreams/" class="social-link" target="_blank" rel="noopener" aria-label="Instagram">in</a>
+        <a href="http://youtube.com/channel/UCY0lRSXmSo8ExMKoEoPk9Pw" class="social-link" target="_blank" rel="noopener" aria-label="YouTube">yt</a>
+      </div>
+    </div>
+    <div>
+      <p class="footer-col-title">Collections</p>
+      <ul class="footer-links">
+        <li><a href="#explorer">Gourmet Series</a></li>
+        <li><a href="#explorer">Natural Kulfi</a></li>
+        <li><a href="#explorer">Signature Tubs</a></li>
+        <li><a href="#explorer">Novelties</a></li>
+        <li><a href="#explorer">Ice Cream Cakes</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Experience</p>
+      <ul class="footer-links">
+        <li><a href="#parlours">Now For Ever Cafés</a></li>
+        <li><a href="#parlours">Hangout Parlours</a></li>
+        <li><a href="#franchise">Franchise</a></li>
+        <li><a href="https://www.vadilalicecreams.com/locate-us" target="_blank" rel="noopener">Locate Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Company</p>
+      <ul class="footer-links">
+        <li><a href="#heritage">Our Story</a></li>
+        <li><a href="#global">Global Presence</a></li>
+        <li><a href="https://www.vadilalicecreams.com/careers" target="_blank" rel="noopener">Careers</a></li>
+        <li><a href="mailto:info@vadilalgroup.com">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">&copy; 2025 Vadilal Enterprises Ltd. All rights reserved.</span>
+    <div class="footer-legal">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <span class="footer-copy">Crafted Since 1926 &middot; Ahmedabad, India</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
